@@ -1,0 +1,9 @@
+namespace: demo
+
+backend:
+  image: backend:v1
+  replicas: 2
+
+frontend:
+  image: frontend:v1
+  replicas: 2
